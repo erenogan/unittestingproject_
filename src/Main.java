@@ -164,3 +164,5 @@ public class Main {
     System.out.println("Pass Rate: %" + (testsPassed * 100 / (testsPassed + testsFailed)));
     System.out.println("------------------------------------------");
   }}
+//bu satır pr (pull request) kanıtı için yazıldı
+//this line added for pr
