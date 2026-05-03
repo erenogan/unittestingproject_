@@ -1,0 +1,21 @@
+name: Java Automated Tests
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Java Environment
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Compile and Run Tests
+        run: |
+          cd src
+          javac Main.java
+          java Main
