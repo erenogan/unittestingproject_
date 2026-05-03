@@ -114,5 +114,4 @@ public class Main {
     System.out.println("Total Failed: " + testsFailed);
     System.out.println("Pass Rate: %" + (testsPassed * 100 / (testsPassed + testsFailed)));
     System.out.println("------------------------------------------");
-  }
-}
+  }}
