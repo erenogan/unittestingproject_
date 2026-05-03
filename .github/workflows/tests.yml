@@ -16,6 +16,6 @@ jobs:
 
       - name: Compile and Run Tests
         run: |
-          cd src
-          javac Main.java
-          java Main
+           cd src
+           javac Main.java
+           java Main
