@@ -154,6 +154,8 @@ public class Main {
     printFinalReport();
   }
 
+  //yorumsatırı
+
   private static void printFinalReport() {
     System.out.println("\n------------------------------------------");
     System.out.println("TEST EXECUTION SUMMARY");
